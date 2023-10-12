@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversion d'adresse IP et calcul de sous-réseaux</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Conversion d'adresse IP et calcul de sous-réseaux</h1>
+    <form id="subnetForm">
+        <label for="ipAddress">Adresse IP :</label>
+        <input type="text" id="ipAddress" name="ipAddress" required><br><br>
+
+        <label for="subnetMaskDecimal">Masque de sous-réseau (en décimal):</label>
+        <input type="text" id="subnetMaskDecimal" name="subnetMaskDecimal"><br><br>
+
+        <label for="subnetMaskCIDR">Masque de sous-réseau (en CIDR):</label>
+        <input type="text" id="subnetMaskCIDR" name="subnetMaskCIDR"><br><br>
+
+        <input type="submit" value="Calculer">
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
