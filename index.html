@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Conversion d'adresse IP et calcul de sous-réseaux</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <h1>Conversion d'adresse IP et calcul de sous-réseaux</h1>
-    <form id="subnetForm">
-        <label for="ipAddress">Adresse IP :</label>
-        <input type="text" id="ipAddress" name="ipAddress" required><br><br>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <label for="subnetMaskDecimal">Masque de sous-réseau (en décimal):</label>
-        <input type="text" id="subnetMaskDecimal" name="subnetMaskDecimal"><br><br>
+        <title>Conversion d'adresse IP et calcul de sous-réseaux</title>
 
-        <label for="subnetMaskCIDR">Masque de sous-réseau (en CIDR):</label>
-        <input type="text" id="subnetMaskCIDR" name="subnetMaskCIDR"><br><br>
+        <style>
+            /* Ajoutez du CSS ici pour styliser votre formulaire si nécessaire */
+        </style>
 
-        <input type="submit" value="Calculer">
-    </form>
+        <!-- Ou liez votre feuille de style css avec un fichier externe -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
 
-    <div id="result"></div>
 
-    <script src="script.js"></script>
-</body>
+    <body>
+        <h1>Conversion d'adresse IP et calcul de sous-réseaux</h1>
+
+        <form id="subnetForm">
+            <label for="ipAddress">Adresse IP :</label>
+            <input type="text" id="ipAddress" name="ipAddress" required><br><br>
+
+            <label for="subnetMaskDecimal">Masque de sous-réseau (en décimal):</label>
+            <input type="text" id="subnetMaskDecimal" name="subnetMaskDecimal"><br><br>
+
+            <label for="subnetMaskCIDR">Masque de sous-réseau (en CIDR):</label>
+            <input type="text" id="subnetMaskCIDR" name="subnetMaskCIDR"><br><br>
+
+            <input type="submit" value="Calculer">
+        </form>
+
+        <div id="result">
+            <!-- Les résultats seront affichés ici -->
+        </div>
+
+
+        <script>
+            // Le script JavaScript fourni va ici
+        </script>
+
+        <!-- Ou liez votre script js avec un fichier externe -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
 </html>
