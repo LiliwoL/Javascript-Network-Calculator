@@ -12,19 +12,28 @@ Un script en JS pour découvrir le calcul de sous réseaux et le HTML
 À la fin de ce TP, vous serez capables de créer un formulaire HTML pour saisir des informations réseau, utiliser CSS pour styliser le formulaire, et intégrer Bootstrap pour améliorer l'aspect visuel.
 
 
+***
+
+> **Attention!** Veillez à respecter les étapes!
+> Inutile de faire l'étape 4 avant la 2!
+
+***
+
 ## Étape 1: Création du formulaire HTML de base
 
 Vous devez créer un formulaire pour effectuer des calculs réseau.
 
-* Création du fichier HTML
+* **Création du fichier HTML**
 
 Dans un dossier nommé **TP-HTML-CSS-CalculSousReseau**, créez un fichier **index.html**.
 
 Ouvrez ce fichier avec l'éditeur de votre choix. (VS Code conseillé).
 
-* Structure de base
+* **Structure de base**
 
 Voici la structure de base du fichier:
+
+> Elle est volontairement erronée! A vous de la corriger.
 
 ```html
 <!DOCTYPE html>
@@ -40,11 +49,12 @@ Voici la structure de base du fichier:
 </html>
 ```
 
-Vous devrez remplir les balises manquantes.
+**Vous devrez remplir les balises manquantes**.
 > Pensez aux balises fermantes, soignez l'indentation!
 > Reprenez le memo HTML!
 
-Appelez l'enseignant pour correction avant de passer à l'étape suivante.
+> **Correction:**
+> Appelez l'enseignant pour correction **avant de passer à l'étape suivante**.
 
 ***
 
@@ -58,7 +68,7 @@ Voici les balises à utiliser:
 * `<input type="text" />`
 * `<input type="submit" />`
 
-> Lisez dans le memo HTML la syntaxe de ces balises
+> Lisez dans le memo HTML la syntaxe de ces balises ou sur [MDN](https://developer.mozilla.org/fr/docs/Web/HTML)
 
 Ajouter un formulaire contenant:
 * Une balise form
@@ -66,7 +76,10 @@ Ajouter un formulaire contenant:
 * 1 balise input de type submit 
 
 Votre formulaire, devra à terme, ressembler à ceci:
-![img.png](img.png)
+https://codepen.io/liliwol/full/RwvBqEE
+
+> **Correction:**
+> Appelez l'enseignant pour correction **avant de passer à l'étape suivante**.
 
 ***
 
@@ -81,7 +94,9 @@ Deux manières d'ajouter des styles.
 
 > Prenez dès à présent l'habitude de ranger vos css ou js dans des dossiers spécifiques.
 
-Vous devrez ajoutyer des styles suivants:
+Vous allez créer un fichier nommé **style.css** que vous allez lier à votre fichier **index.html**.
+
+Vous devrez ajouter des styles suivants:
 - marges
 - couleurs de fond
 - police
@@ -103,6 +118,9 @@ form {
 }
 ```
 
+> **Correction:**
+> Appelez l'enseignant pour correction **avant de passer à l'étape suivante**.
+
 ***
 
 ## Étape 4 : Intégration de Bootstrap
@@ -110,6 +128,7 @@ form {
 Bootstrap est un outil pour les développeurs qui veulent un résultat professionnel sans passer trop de temps sur le graphisme.
 Vous aurez rapidement des pages attrayantes au look certes impersonnel, mais vous apprendrez à personnaliser!
 
+> Avant de poursuivre, vous **devez** allez lire la documentation de Bootstrap!
 
 Ajouter les liens vers les fichiers CSS de Bootstrap dans votre fichier **index.html** au niveau de `<head>`.
 
