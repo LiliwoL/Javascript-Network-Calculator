@@ -150,7 +150,7 @@ document.getElementById("subnetForm").addEventListener("submit", function(event)
 
     document.getElementById("result").innerHTML = `
         <b>Adresse IP décimal :</b> ${ipAddress}<br>
-        <b>Adresse IP binaire : ${ipAddressBinary}<br>
+        <b>Adresse IP binaire :</b> ${ipAddressBinary}<br>
         <br>
         <b>Masque de sous-réseau décimal :</b> ${subnetDecimal}<br>
         <b>Masque de sous-réseau binaire :</b> ${subnetMaskBinary}<br>
