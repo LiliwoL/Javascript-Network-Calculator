@@ -149,23 +149,23 @@ document.getElementById("subnetForm").addEventListener("submit", function(event)
     const addresses = calculateAddresses(ipAddressBinary, subnetMaskBinary);
 
     document.getElementById("result").innerHTML = `
-        Adresse IP décimal : ${ipAddress}<br>
-        Adresse IP binaire : ${ipAddressBinary}<br>
+        <b>Adresse IP décimal :</b> ${ipAddress}<br>
+        <b>Adresse IP binaire : ${ipAddressBinary}<br>
         <br>
-        Masque de sous-réseau décimal : ${subnetDecimal}<br>
-        Masque de sous-réseau binaire : ${subnetMaskBinary}<br>
+        <b>Masque de sous-réseau décimal :</b> ${subnetDecimal}<br>
+        <b>Masque de sous-réseau binaire :</b> ${subnetMaskBinary}<br>
         
         <br>
-        Adresse du réseau : ${networkAddress}<br>
+        <b>Adresse du réseau :</b> ${networkAddress}<br>
         
         <br>
-        Nombre d'hôtes possibles : ${numberOfHosts}<br>
+        <b>Nombre d'hôtes possibles :</b> ${numberOfHosts}<br>
         
         <br>
-        Adresse de diffusion : ${addresses.broadcast}<br>
+        <b>Adresse de diffusion :</b> ${addresses.broadcast}<br>
         <br>
-        Première adresse utilisable : ${addresses.firstUsable}<br>   
+        <b>Première adresse utilisable :</b> ${addresses.firstUsable}<br>   
         <br>
-        Dernière adresse utilisable : ${addresses.lastUsable}<br>      
+        <b>Dernière adresse utilisable :</b> ${addresses.lastUsable}<br>      
     `;
 });
